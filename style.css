@@ -1,0 +1,53 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  font-family: "League Spartan", sans-serif;
+  padding: 100px 200px;
+  background-image: url("images/bg-pattern-top-desktop.svg");
+  background-image: url("images/bg-pattern-bottom-desktop.svg");
+}
+.entete {
+  display: flex;
+}
+.paragraphs {
+  flex: 1;
+}
+.notes {
+  flex: 2;
+}
+
+.p1 {
+  font-weight: 700;
+  font-size: 70px;
+  color: hsl(300, 43%, 22%);
+  margin-bottom: 20px;
+}
+.p2 {
+  font-size: 20px;
+  color: hsl(303, 10%, 53%);
+  line-height: 120%;
+}
+.note {
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 2px;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.note1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.note2 {
+  display: flex;
+  justify-content: center;
+}
+.note3 {
+  display: flex;
+  justify-content: flex-end;
+}
