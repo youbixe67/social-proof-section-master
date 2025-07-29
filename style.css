@@ -7,7 +7,7 @@
 }
 body {
   font-family: "League Spartan", sans-serif;
-  padding: 100px 200px;
+  padding: 150px 300px;
   background-image: url("images/bg-pattern-top-desktop.svg");
   background-image: url("images/bg-pattern-bottom-desktop.svg");
 }
@@ -15,12 +15,12 @@ body {
   display: flex;
 }
 .paragraphs {
+  margin-right: 300px;
   flex: 1;
 }
 .notes {
-  flex: 2;
+  flex: 1;
 }
-
 .p1 {
   font-weight: 700;
   font-size: 70px;
@@ -30,24 +30,75 @@ body {
 .p2 {
   font-size: 20px;
   color: hsl(303, 10%, 53%);
-  line-height: 120%;
+  line-height: 140%;
 }
 .note {
   background-color: hsl(300, 24%, 96%);
-  border-radius: 2px;
-  padding: 10px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  border-radius: 8px;
+  padding: 20px 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.rating {
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+  margin: 0px 20px;
+}
+.note1, .note2, .note3 {
+  display: flex;
 }
 .note1 {
-  display: flex;
   justify-content: flex-start;
+  margin-top: 40px;
 }
 .note2 {
-  display: flex;
   justify-content: center;
 }
 .note3 {
-  display: flex;
   justify-content: flex-end;
+}
+.content {
+  height: 250px;
+  display: flex;
+}
+.section1, .section2, .section3 {
+  display: flex;
+}
+.section1 {
+  align-self: flex-start;
+}
+.section2 {
+  align-self: center;
+}
+.section3 {
+  align-self: flex-end;
+}
+.avis {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 5px;
+  margin: 10px;
+  padding: 25px 30px;
+}
+.comment {
+  color: white;
+  font-weight: 400;
+  line-height: 120%;
+}
+.comment-header {
+  display: flex;
+}
+.profile-photo {
+  width: 40px;
+  border-radius: 50%; 
+  object-fit: cover;
+  margin: 10px 20px 20px 0px;
+}
+.buyer {
+  color: white;
+  font-weight: 500;
+  margin-top: 2px;
+}
+.pseudo {
+  margin-bottom: 0;
+  color: hsl(333, 80%, 67%);
 }
